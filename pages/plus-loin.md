@@ -13,7 +13,7 @@ class: px-14
 ---
 title: Vérifier votre e-mail
 layout: image-right
-image: assets/link/haveibeenpwned.png
+image: /assets/link/haveibeenpwned.png
 backgroundSize: contain
 class: px-10
 ---
@@ -29,7 +29,7 @@ class: px-10
 ---
 title: Ce que votre navigateur expose
 layout: image-right
-image: assets/link/browserleaks.png
+image: /assets/link/browserleaks.png
 backgroundSize: contain
 class: px-10
 ---
@@ -45,7 +45,7 @@ class: px-10
 ---
 title: Les méta-données
 layout: image-right
-image: assets/link/pleasetools.png
+image: /assets/link/pleasetools.png
 backgroundSize: contain
 class: px-10
 ---
@@ -61,7 +61,7 @@ class: px-10
 ---
 title: Bloquer le démarchage
 layout: image-right
-image: assets/link/bloctel.png
+image: /assets/link/bloctel.png
 backgroundSize: contain
 class: px-10
 ---

@@ -134,6 +134,10 @@ src: ./pages/internet.md
 ---
 
 ---
+src: ./pages/computer.md
+---
+
+---
 src: ./pages/plus-loin.md
 ---
 
