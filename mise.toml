@@ -15,6 +15,7 @@ experimental = true
 
 [tools] # Use "mise i" to install & use "mise use" to add tools
 lazygit = "latest"
+markdownlint-cli2 = "latest"
 neovim = "latest"
 node = "24.12.0"
 

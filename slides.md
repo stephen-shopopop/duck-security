@@ -60,11 +60,17 @@ Presentation slides for all people.
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+---
+
+layout: image-right
+image: /assets/duck-security.png
+backgroundSize: contain
+---
+
+Présentation
 
 ---
+
 layout: center
 ---
 
@@ -105,12 +111,14 @@ Tout comme les autres fonctionnalités JavaScript, TypeScript ajoute les annotat
 Livre [TypeScript Notions fondamentales (2e édition)](https://www.editions-eni.fr/livre/typescript-notions-fondamentales-2e-edition-9782409041266)
 
 ---
+
 layout: center
 ---
 
 # Les 3 fondamentaux de la POO
 
 ---
+
 layout: center
 ---
 
@@ -119,6 +127,7 @@ layout: center
 L’encapsulation permet de faire voir l’objet à l’extérieur comme une boîte noire ayant certaines propriétés (attributs et fonctions) et ayant un comportement spécifié. La manière dont ces propriétés ont été implémentées est alors cachée aux utilisateurs de la classe. L’implémentation peut être modifiée sans changer le comportement extérieur de l’objet. Cela permet donc de séparer la spécification du comportement d’un objet, de l’implémentation pratique de ces spécifications.
 
 ---
+
 layout: center
 ---
 
@@ -127,6 +136,7 @@ layout: center
 L’héritage, permettant entre autres la réutilisabilité et l’adaptabilité des objets. Ce principe est basé sur des classes dont les "filles" héritent des caractéristiques de leur(s) "mère(s)". Chacune des classes filles peut donc posséder les mêmes caractéristiques que ses classes mères et bénéficier de caractéristiques supplémentaires à celles de ces classes mères. Bien sur, toutes les méthodes de la classe héritée (fille) peuvent être redéfinies. Chaque classe fille peut, si le programmeur n’a pas défini de limitation, devenir à son tour classe mère.
 
 ---
+
 layout: center
 ---
 
@@ -135,25 +145,31 @@ layout: center
 Cette capacité dérive directement du principe d’héritage vu précédemment. En effet, comme on le sait déjà, un objet va hériter des attributs et méthodes de ses ancêtres. Mais un objet garde toujours la capacité de pouvoir redéfinir une méthode. On voit donc apparaître ici ce concept de polymorphisme : choisir en fonction des besoins quelle méthode ancêtre appeler, et ce au cours même de l’exécution.
 
 ---
+
 src: ./pages/solid-principe.md
 ---
 
 ---
+
 src: ./pages/creational-patterns.md
 ---
 
 ---
+
 src: ./pages/structural-patterns.md
 ---
 
 ---
+
 src: ./pages/behavior-patterns.md
 ---
 
 ---
+
 src: ./pages/node-patterns.md
 ---
 
 ---
+
 layout: end
 ---
