@@ -61,7 +61,70 @@ Presentation slides for all people.
 </div>
 
 ---
+layout: center
+title: présentation
+class: px-14
+---
 
+<div class="w-full max-w-3xl mx-auto rounded-2xl border border-white/25 bg-white/10 backdrop-blur p-8 text-left shadow-xl">
+  <p class="text-sm uppercase tracking-widest opacity-70 mb-2">Qui suis-je ?</p>
+  <h2 class="text-4xl font-bold leading-tight mb-2">Stephen Deletang</h2>
+  <p class="text-xl opacity-90 mb-5">Développeur back-end senior depuis plus de 10 ans</p>
+  <p class="text-lg leading-relaxed opacity-90">
+    Je crée des solutions logicielles sécurisées sur le cloud, simples et fiables pour tous.
+  </p>
+  <div class="mt-4 inline-flex items-center gap-3 rounded-xl border border-white/30 bg-white/10 px-3 py-2">
+    <span class="text-sm opacity-80">Entreprises :</span>
+    <span class="inline-flex items-center rounded-md px-2 py-1" style="background-color: #009fe3;">
+      <img src="https://www.energiency.com/wp-content/uploads/2025/11/logo-energiency-by-epsa-blanc-1-300x68.png" alt="Logo EPSA Energy" class="h-7 w-auto" />
+    </span>
+    <span class="inline-flex items-center rounded-md bg-white px-2 py-1">
+      <img src="https://www.lacantine.co/app/uploads/2024/11/logo-shopopop-membre-cantine-nantes.png" alt="Logo Shopopop" class="h-7 w-auto" />
+    </span>
+    <span class="inline-flex items-center rounded-md px-2 py-1" style="background-color: #009fe3;">
+      <img src="https://e-dentic.fr/wp-content/uploads/2024/04/logo-e-dentic-light2025.webp" alt="Logo e-dentic" class="h-7 w-auto" />
+    </span>
+  </div>
+  <div class="mt-3 flex flex-wrap items-center gap-1 rounded-xl border border-white/30 bg-white/10 px-3 py-2">
+    <span class="text-sm opacity-80">Technologie :</span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo Node.js" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" alt="Logo Golang" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="Logo PostgreSQL" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://cdn.simpleicons.org/elasticsearch/005571" alt="Logo Elasticsearch" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://cdn.simpleicons.org/clickhouse/FFCC01" alt="Logo ClickHouse" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://cdn.simpleicons.org/rabbitmq/FF6600" alt="Logo RabbitMQ" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://cdn.simpleicons.org/mqtt/660066" alt="Logo MQTT" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="Logo MySQL" class="h-7 w-24 object-contain" />
+    </span>
+    <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
+      <img src="https://cdn.simpleicons.org/sqlite/003B57" alt="Logo SQLite" class="h-7 w-24 object-contain" />
+    </span>
+  </div>
+  <div class="mt-6 flex flex-wrap gap-2 text-sm">
+    <span class="px-3 py-1 rounded-full border border-white/30 bg-white/10">Sécurité</span>
+    <span class="px-3 py-1 rounded-full border border-white/30 bg-white/10">Cloud</span>
+    <span class="px-3 py-1 rounded-full border border-white/30 bg-white/10">Fiabilité</span>
+    <span class="px-3 py-1 rounded-full border border-white/30 bg-white/10">Données</span>
+    <span class="px-3 py-1 rounded-full border border-white/30 bg-white/10">Performance</span>
+  </div>
+</div>
+
+---
 layout: image-right
 image: /assets/duck-security.png
 backgroundSize: contain
@@ -70,82 +133,6 @@ backgroundSize: contain
 Présentation
 
 ---
-
-layout: center
----
-
-## Définitions
-
-Schéma formant une solution reconnue comme fiable et robuste (aka. bonne pratique) à un problème connu ou récurrent
-
----
-
-# Les design patterns
-
-A partir de cette définition, on peut donc dire que les design patterns (patrons de conception en français) naissent via l’expérience. En effet, être confronté plusieurs fois à un même problème permet d’améliorer et d’affiner à chaque fois la solution qu’on y apporte. Au bout d’un moment, en fédérant les travaux d’autres personnes ayant été confrontées au même problème, on va finir par aboutir à une solution qui s’avère être la mieux adaptée pour ce problème précis. Il suffit ensuite d’en retirer la moelle pour obtenir un modèle réutilisable permettant de résoudre le problème de manière efficace et performante.
-
-<br>
-
-Un design pattern est donc une capitalisation du travail. On peut y voir 3 points positifs:
-
-- Évite de réinventer la roue !
-- Gain de temps
-- Permet de s’assurer que l’on applique une “bonne” solution (fiable, robuste et éprouvée)
-
----
-
-# Design Pattern = Nom + Problème + Solution + Conséquence
-
-Historiquement, les design patterns proviennent des travaux de Christopher Alexander (architecte) dans les années 70 et ont été formalisés dans le livre “Design Patterns – Elements of Reusable Object-Oriented Software” du Gang Of Four en 1995 (ou GoF : groupe de 4 informaticiens, Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides, auteurs de nombreux ouvrages en programmation orientée objet). Les patrons de conception ont été divisés par le GoF en 3 catégories que nous allons parcourir ensemble.
-
-Dans cette présentation nous décrirons ces différents pattern avec le language typescript.
-
----
-
-# Pré-requis
-
-TypeScript offre un support entier pour le mot-clé class introduit avec ES2015.
-
-Tout comme les autres fonctionnalités JavaScript, TypeScript ajoute les annotations de type et autres éléments de syntaxe pour vous permettre d’exprimer les relations entre les classes et les autres types [typescript les classes](https://www.typescriptlang.org/fr/docs/handbook/2/classes.html).
-
-Livre [TypeScript Notions fondamentales (2e édition)](https://www.editions-eni.fr/livre/typescript-notions-fondamentales-2e-edition-9782409041266)
-
----
-
-layout: center
----
-
-# Les 3 fondamentaux de la POO
-
----
-
-layout: center
----
-
-# Encapsulation
-
-L’encapsulation permet de faire voir l’objet à l’extérieur comme une boîte noire ayant certaines propriétés (attributs et fonctions) et ayant un comportement spécifié. La manière dont ces propriétés ont été implémentées est alors cachée aux utilisateurs de la classe. L’implémentation peut être modifiée sans changer le comportement extérieur de l’objet. Cela permet donc de séparer la spécification du comportement d’un objet, de l’implémentation pratique de ces spécifications.
-
----
-
-layout: center
----
-
-## Héritage
-
-L’héritage, permettant entre autres la réutilisabilité et l’adaptabilité des objets. Ce principe est basé sur des classes dont les "filles" héritent des caractéristiques de leur(s) "mère(s)". Chacune des classes filles peut donc posséder les mêmes caractéristiques que ses classes mères et bénéficier de caractéristiques supplémentaires à celles de ces classes mères. Bien sur, toutes les méthodes de la classe héritée (fille) peuvent être redéfinies. Chaque classe fille peut, si le programmeur n’a pas défini de limitation, devenir à son tour classe mère.
-
----
-
-layout: center
----
-
-## Polymorphisme
-
-Cette capacité dérive directement du principe d’héritage vu précédemment. En effet, comme on le sait déjà, un objet va hériter des attributs et méthodes de ses ancêtres. Mais un objet garde toujours la capacité de pouvoir redéfinir une méthode. On voit donc apparaître ici ce concept de polymorphisme : choisir en fonction des besoins quelle méthode ancêtre appeler, et ce au cours même de l’exécution.
-
----
-
 src: ./pages/solid-principe.md
 ---
 
