@@ -142,6 +142,10 @@ src: ./pages/tiers-confiance.md
 ---
 
 ---
+src: ./pages/pirates.md
+---
+
+---
 src: ./pages/plus-loin.md
 ---
 
