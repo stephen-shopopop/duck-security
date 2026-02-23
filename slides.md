@@ -138,6 +138,10 @@ src: ./pages/computer.md
 ---
 
 ---
+src: ./pages/tiers-confiance.md
+---
+
+---
 src: ./pages/plus-loin.md
 ---
 
