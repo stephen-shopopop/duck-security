@@ -125,6 +125,14 @@ class: px-14
 </div>
 
 ---
+src: ./pages/sommaire.md
+---
+
+---
+src: ./pages/internet.md
+---
+
+---
 src: ./pages/plus-loin.md
 ---
 
