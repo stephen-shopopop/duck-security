@@ -7,11 +7,6 @@ layout: center
 	<h1 class="text-4xl font-bold mb-6 flex items-center justify-center gap-3">🦹 Comment agissent les pirates</h1>
 </div>
 
----
-layout: center
----
-
-# Pourquoi ?
 
 ---
 layout: center
