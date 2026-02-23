@@ -2,7 +2,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /assets/cover-slidev.jpg
 # some information about your slides (markdown enabled)
 title: Welcome to duck security slides
 titleTemplate: '%s - Duck Security'
@@ -76,43 +76,43 @@ class: px-14
   <div class="mt-4 inline-flex items-center gap-3 rounded-xl border border-white/30 bg-white/10 px-3 py-2">
     <span class="text-sm opacity-80">Entreprises :</span>
     <span class="inline-flex items-center rounded-md px-2 py-1" style="background-color: #009fe3;">
-      <img src="https://www.energiency.com/wp-content/uploads/2025/11/logo-energiency-by-epsa-blanc-1-300x68.png" alt="Logo EPSA Energy" class="h-7 w-auto" />
+      <img src="/assets/logos/epsa-energy.png" alt="Logo EPSA Energy" class="h-7 w-auto" />
     </span>
     <span class="inline-flex items-center rounded-md bg-white px-2 py-1">
-      <img src="https://www.lacantine.co/app/uploads/2024/11/logo-shopopop-membre-cantine-nantes.png" alt="Logo Shopopop" class="h-7 w-auto" />
+      <img src="/assets/logos/shopopop.png" alt="Logo Shopopop" class="h-7 w-auto" />
     </span>
     <span class="inline-flex items-center rounded-md px-2 py-1" style="background-color: #009fe3;">
-      <img src="https://e-dentic.fr/wp-content/uploads/2024/04/logo-e-dentic-light2025.webp" alt="Logo e-dentic" class="h-7 w-auto" />
+      <img src="/assets/logos/e-dentic.webp" alt="Logo e-dentic" class="h-7 w-auto" />
     </span>
   </div>
   <div class="mt-3 flex flex-wrap items-center gap-1 rounded-xl border border-white/30 bg-white/10 px-3 py-2">
     <span class="text-sm opacity-80">Technologie :</span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo Node.js" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/nodejs.svg" alt="Logo Node.js" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" alt="Logo Golang" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/golang.png" alt="Logo Golang" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="Logo PostgreSQL" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/postgresql.svg" alt="Logo PostgreSQL" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://cdn.simpleicons.org/elasticsearch/005571" alt="Logo Elasticsearch" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/elasticsearch.svg" alt="Logo Elasticsearch" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://cdn.simpleicons.org/clickhouse/FFCC01" alt="Logo ClickHouse" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/clickhouse.svg" alt="Logo ClickHouse" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://cdn.simpleicons.org/rabbitmq/FF6600" alt="Logo RabbitMQ" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/rabbitmq.svg" alt="Logo RabbitMQ" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://cdn.simpleicons.org/mqtt/660066" alt="Logo MQTT" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/mqtt.svg" alt="Logo MQTT" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="Logo MySQL" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/mysql.svg" alt="Logo MySQL" class="h-7 w-24 object-contain" />
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
-      <img src="https://cdn.simpleicons.org/sqlite/003B57" alt="Logo SQLite" class="h-7 w-24 object-contain" />
+      <img src="/assets/logos/sqlite.svg" alt="Logo SQLite" class="h-7 w-24 object-contain" />
     </span>
   </div>
   <div class="mt-6 flex flex-wrap gap-2 text-sm">
@@ -125,38 +125,13 @@ class: px-14
 </div>
 
 ---
-layout: image-right
-image: /assets/duck-security.png
-backgroundSize: contain
----
-
-Présentation
-
----
-src: ./pages/solid-principe.md
+src: ./pages/questions.md
 ---
 
 ---
-
-src: ./pages/creational-patterns.md
+src: ./pages/remerciements.md
 ---
 
 ---
-
-src: ./pages/structural-patterns.md
----
-
----
-
-src: ./pages/behavior-patterns.md
----
-
----
-
-src: ./pages/node-patterns.md
----
-
----
-
 layout: end
 ---
