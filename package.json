@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "duck-security",
+  "description": "Security for all people, not just ducks.",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "maintenance": "rm -rf ./node_modules && npm cache clean --force"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.12.0",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.28"
+  },
+  "author": "Stephen Deletang <s.deletang@icloud.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephen-shopopop/duck-security"
+  }
+}
