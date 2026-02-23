@@ -191,3 +191,40 @@ layout: center
 		<li>Attention aux <b>spams</b> (courriers indésirables) et aux <b>phishing</b> (tentatives de fraude).</li>
 	</ul>
 </div>
+
+
+---
+title: Comment fonctionne un navigateur internet ?
+layout: center
+---
+
+<div class="max-w-2xl mx-auto rounded-xl border border-white/20 bg-white/5 p-7 shadow-lg">
+	<h2 class="text-2xl font-bold mb-3 flex items-center gap-2">🧭 Comment fonctionne un navigateur&nbsp;?</h2>
+	<ul class="text-lg leading-relaxed space-y-2 text-left">
+		<li>Un <b>navigateur web</b> permet d’accéder aux sites et applications sur Internet.</li>
+		<li>Il traduit les adresses web (URL) en requêtes envoyées aux serveurs distants.</li>
+		<li>Il reçoit les pages web (HTML, CSS, JavaScript) et les affiche de façon lisible et interactive.</li>
+		<li>Il gère les onglets, l’historique, les favoris, les téléchargements, etc.</li>
+		<li>Il protège l’utilisateur contre certains dangers (phishing, sites malveillants, cookies, etc.).</li>
+		<li>Il peut être enrichi par des extensions pour ajouter des fonctionnalités (bloqueur de pub, traducteur, etc.).</li>
+	</ul>
+	<p class="text-base opacity-80 mt-4">Le navigateur est l’outil principal pour explorer le web, mais il ne fait qu’interpréter et afficher ce que les serveurs envoient.</p>
+</div>
+
+---
+title: Les navigateurs web
+layout: center
+---
+
+<div class="max-w-2xl mx-auto rounded-xl border border-white/20 bg-white/5 p-7 shadow-lg">
+	<h2 class="text-2xl font-bold mb-3 flex items-center gap-2">🌍 Les principaux navigateurs web</h2>
+	<ul class="text-lg leading-relaxed space-y-2 text-left">
+		<li><b>Google Chrome</b> : rapide, très compatible, nombreuses extensions, synchronisation Google.</li>
+		<li><b>Mozilla Firefox</b> : respect de la vie privée, open source, personnalisable, outils pour développeurs.</li>
+		<li><b>Microsoft Edge</b> : basé sur Chromium, intégré à Windows, bonnes performances, outils de sécurité.</li>
+		<li><b>Safari</b> : optimisé pour Mac/iOS, rapide, bonne gestion de la batterie, intégration Apple.</li>
+		<li><b>Brave</b> : bloqueur de pub intégré, respect de la vie privée, rapidité.</li>
+		<li><b>Opera</b> : fonctionnalités innovantes (VPN, messageries intégrées), interface personnalisable.</li>
+		<li><b>Vivaldi</b> : ultra-personnalisable, gestion avancée des onglets, outils intégrés.</li>
+	</ul>
+</div>
