@@ -44,6 +44,22 @@ class: px-10
 </div>
 
 ---
+title: Les méta-données
+layout: image-right
+image: /assets/link/pleasetools.png
+backgroundSize: contain
+class: px-10
+---
+
+<div class="max-w-xl rounded-2xl border border-white/25 bg-white/10 backdrop-blur p-6 shadow-lg">
+	<p class="text-sm uppercase tracking-widest opacity-70 mb-2">Protéger ses données</p>
+	<h2 class="text-2xl font-bold mb-3">Ce que vos photos exposent</h2>
+	<p class="text-lg leading-relaxed opacity-90">
+		Scannez le QR code pour découvrir rapidement ce que vos photos exposent.
+	</p>
+</div>
+
+---
 title: Bloquer le démarchage
 layout: image-right
 image: /assets/link/bloctel.png
