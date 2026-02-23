@@ -2,7 +2,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: /assets/cover-slidev.jpg
+background: assets/cover-slidev.jpg
 # some information about your slides (markdown enabled)
 title: Welcome to duck security slides
 titleTemplate: '%s - Duck Security'
@@ -113,6 +113,7 @@ class: px-14
     </span>
     <span class="inline-flex w-28 items-center justify-center rounded-md bg-white px-2 py-1">
       <img src="/assets/logos/sqlite.svg" alt="Logo SQLite" class="h-7 w-24 object-contain" />
+contain" />
     </span>
   </div>
   <div class="mt-6 flex flex-wrap gap-2 text-sm">
