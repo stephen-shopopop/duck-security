@@ -2,7 +2,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: assets/cover-slidev.jpg
+background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Welcome to duck security slides
 titleTemplate: '%s - Duck Security'

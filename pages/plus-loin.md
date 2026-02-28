@@ -12,9 +12,7 @@ class: px-14
 
 ---
 title: Vérifier votre e-mail
-layout: image-right
-image: /assets/link/haveibeenpwned.png
-backgroundSize: contain
+layout: center
 class: px-10
 ---
 
@@ -22,15 +20,13 @@ class: px-10
 	<p class="text-sm uppercase tracking-widest opacity-70 mb-2">Bon réflexe sécurité</p>
 	<h2 class="text-2xl font-bold mb-3">Vérifiez votre adresse e-mail</h2>
 	<p class="text-lg leading-relaxed opacity-90">
-		Scannez le QR code pour savoir rapidement si votre e-mail a déjà été exposé dans une fuite de données.
+		Allez sur <a href="https://haveibeenpwned.com" title="https://haveibeenpwned.com" target="_blank">https://haveibeenpwned.com</a> pour savoir rapidement si votre e-mail a déjà été exposé dans une fuite de données.
 	</p>
 </div>
  
 ---
 title: Ce que votre navigateur expose
-layout: image-right
-image: /assets/link/browserleaks.png
-backgroundSize: contain
+layout: center
 class: px-10
 ---
 
@@ -38,15 +34,13 @@ class: px-10
 	<p class="text-sm uppercase tracking-widest opacity-70 mb-2">Bon réflexe sécurité</p>
 	<h2 class="text-2xl font-bold mb-3">Vérifiez ce que votre navigateur expose</h2>
 	<p class="text-lg leading-relaxed opacity-90">
-		Scannez le QR code pour découvrir rapidement ce que votre navigateur expose.
+		Allez <a href="https://browserleaks.com/ip" title="https://browserleaks.com" target="_blank">https://browserleaks.com</a> pour découvrir rapidement ce que votre navigateur expose.
 	</p>
 </div>
 
 ---
 title: Les méta-données
-layout: image-right
-image: /assets/link/pleasetools.png
-backgroundSize: contain
+layout: center
 class: px-10
 ---
 
@@ -54,15 +48,13 @@ class: px-10
 	<p class="text-sm uppercase tracking-widest opacity-70 mb-2">Protéger ses données</p>
 	<h2 class="text-2xl font-bold mb-3">Ce que vos photos exposent</h2>
 	<p class="text-lg leading-relaxed opacity-90">
-		Scannez le QR code pour découvrir rapidement ce que vos photos exposent.
+		Allez <a href="https://pleasetools.com/tools/image-metadata" title="https://pleasetools.com" target="_blank">https://pleasetools.com</a> pour découvrir rapidement ce que vos photos exposent.
 	</p>
 </div>
 
 ---
 title: Bloquer le démarchage
-layout: image-right
-image: /assets/link/bloctel.png
-backgroundSize: contain
+layout: center
 class: px-10
 ---
 
@@ -70,7 +62,7 @@ class: px-10
 	<p class="text-sm uppercase tracking-widest opacity-70 mb-2">Protéger son numéro de téléphone</p>
 	<h2 class="text-2xl font-bold mb-3">Service d'opposition au démarchage téléphonique</h2>
 	<p class="text-lg leading-relaxed opacity-90">
-		Scannez le QR code pour activer simplement la protection de votre numéro.
+		Allez sur <a href="https://www.bloctel.gouv.fr" title="https://www.bloctel.gouv.fr" target="_blank">https://www.bloctel.gouv.fr</a> pour activer simplement la protection de votre numéro.
 	</p>
 	<blockquote class="mt-4 rounded-lg border border-white/20 bg-white/5 px-4 py-3 text-sm italic opacity-90">
 		Votre numéro vous est attribué, mais il ne vous appartient pas.
